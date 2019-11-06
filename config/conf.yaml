@@ -1,0 +1,32 @@
+debug: true
+
+server:
+  host: "0.0.0.0"
+  port: "9100"
+
+mongodb:
+  host: "192.168.100.233"
+  port: "27019"
+  user: "h5zhibo"
+  passwd: "h5zhibo"
+  dbname: "h5zhibo"
+
+redis:
+  host: "192.168.100.233"
+  port: "6380"
+  passwd: "56grTbvMYaOQ"
+  db: 6
+
+auth:
+  mongodb:
+    host: "192.168.100.233"
+    port: "27020"
+    user: "test"
+    passwd: "test"
+    dbname: "testrole"
+  redis:
+    host: "192.168.100.233"
+    port: "6380"
+    passwd: "56grTbvMYaOQ"
+    db: 14
+
